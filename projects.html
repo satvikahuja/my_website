@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projects | satvik</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html#about" class="nav-link">about</a>
+        <span class="nav-separator">|</span>
+        <a href="projects.html" class="nav-link active">projects</a>
+    </nav>
+    <section class="projects-section">
+        <div class="container">
+            <h2>projects</h2>
+            <div class="project">
+                <h3>cook n roll</h3>
+                <p>
+                    Built the robotic arm from scratch and upgraded it to 7 degrees of freedom.<br>
+                    Automated a waiter and a chef using a multi robot setup and a high-level voice multimodal LLM control.<br>
+                    Recorded 150 trajectories, then finetuned smolVLA for 50k steps and ACT for 80k steps.
+                    Found ACT to work better for the tasks.
+                    Trained a VLA & ACT for the low-level tasks.
+                </p>
+                <div class="project-media">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/ucAJGtZkOLk" title="cook n roll demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="project">
+                <h3>chatRobo</h3>
+                <p>
+                    First project in robotics :)<br>
+                    A ChatGPT-like interface where, with natural language, one can control a robot with a 2-DoF arm on a mobile base (all DC motors 🥲).<br>
+                    Can pick and place items, and you can teach the robot tasks like making it dance 😆
+                </p>
+                <div class="project-media">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/0gcH466rV34" title="chatRobo demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects-section">
+        <div class="container">
+            <h2>pre robotics journey</h2>
+            <p>Built various projects on vision and NLP:</p>
+            <ul class="pre-robotics-list">
+                >AI nutrition webapp which calculates your calories<br>
+                >name generator<br>
+                >language translator<br>
+                >gpt2 from scratch
+            </ul>
+        </div>
+    </section>
+</body>
+</html> 
